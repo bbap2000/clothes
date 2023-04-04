@@ -1,0 +1,188 @@
+﻿
+@{
+    ViewBag.Title = "test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.js"></script>
+
+<style>
+    #rateYo {
+        width: unset !important;
+    }
+
+    .jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
+        width: 25px !important;
+    }
+</style>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $('#rateYo').rateYo({
+            rating: 0,
+            numStars: 5,
+            maxValue: 5,
+            halfStar: true,
+            onChange: function (rating, rateYoInstance) {
+                $('#rating').val(rating);
+            }
+        })
+    })
+</script>
+
+<div class="single-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <div class="line-dec"></div>
+                    <h1>CHI TIẾT</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-slider">
+                    <div id="slider" class="flexslider">
+
+                        <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                            <ul class="slides" style="width: 800%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                <li class="flex-active-slide" style="width: 408px; margin-right: 0px; float: left; display: block;">
+                                    @foreach (var m in ViewBag.Main)
+                                    {
+                                        <img src="@m.sanpham.hinh" draggable="false" width="100%">
+                                    }
+                                </li>
+                                <!-- items mirrored twice, total of 12 -->
+                            </ul>
+                        </div><ul class="flex-direction-nav">
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                @foreach (var m in ViewBag.Main)
+                {
+                    <div class="right-content">
+                        <h4>@m.sanpham.tensp</h4>
+                        <h6>@String.Format("{0:N0}", @m.sanpham.giaban)</h6>
+                        <p class="short-des">
+                            @Html.Raw(@m.sanpham.mota)
+
+                        </p>
+                        <!----<span>7 left on stock</span>-->
+                        <form action="" method="get">
+                            <label for="quantity">Số lượng:</label>
+                            <input name="quantity" type="quantity" class="quantity-text" id="quantity" onfocus="if(this.value == '1') { this.value = ''; }" onblur="if(this.value == '') { this.value = '1';}" value="1">
+                            <a href="@Url.Action("ThemGioHang", "GioHang",new { @id = @m.sanpham.masp, @strURL = Request.Url.ToString() })" class="button" name="add-to-cart" onclick="alert('thêm vào giỏ hàng thành công')">Đặt Hàng</a>
+                        </form>
+                        
+                    </div>
+                }
+            </div>
+
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <div class="line-dec"></div>
+                    <h1>Mô Tả</h1>
+                    @foreach (var m in ViewBag.Main)
+                    {
+                        @Html.Raw(@m.sanpham.mota)
+                    }
+                </div>
+            </div>
+
+            <!--Bình luận sản phẩm-->
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <div class="line-dec"></div>
+                    <h1>Bình luận & Đánh giá</h1>
+                </div>
+            </div>
+
+            @if (Session["Username"] == null)
+            {
+                <div class="d-flex">
+                    <strong>Bạn phải <a href="@Url.Action("DangNhap","NguoiDung")">đăng nhập</a> để sử dụng chức năng này</strong>
+                </div>
+            }
+
+            else
+            {
+                
+
+                
+                using (Html.BeginForm("SendDanhGia", "SanPham", FormMethod.Post))
+                {   <div class="col-md-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>Nội dung</div>
+                            <div class="d-flex align-items-center">
+                                <div>Đánh giá:</div>
+                                <div id="rateYo"></div>
+                                <input type="hidden" id="rating" name="rating" value="0" />
+                            </div>
+                        </div>
+
+                        <textarea name="content" class="form-control" style="outline: none; margin-bottom: 5px; width: 100%;"></textarea>
+                        <div>
+
+                            <input class="btn btn-primary" type="submit" value="Gửi" />
+
+                            <input data-val="true"
+                                   data-val-number="The field id_sp must be a number."
+                                   data-val-required="The id_sp field is required."
+                                   id="id_sp"
+                                   name="id_sp"
+                                   type="hidden"
+                                   value="0" />
+
+                        </div>
+                    </div>
+                }
+
+            }
+
+            <div class="col-md-12 pt-3">
+                @foreach (var m in ViewBag.ViewDanhGia)
+                {
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <img src="~/Content/images/user.jpg" width="45" height="45" style="border-radius: 50%;" />
+                            <div class="pl-3">
+                                <b>@m.khachhang.hoten</b>
+                                <div style="line-height: 30px;">@m.danhgia.Content</div>
+                                <div>@String.Format("{0:dd/MM/yyyy hh:mm:s}", @m.danhgia.Ngaycapnhap)</div>
+                            </div>
+                        </div>
+                        @if (@m.danhgia.Rating != 0)
+                        {
+                            <div>@m.danhgia.Rating <i class="fas fa-star text-warning"></i></div>
+                        }
+                    </div>
+
+                    <hr />
+                }
+            </div>
+
+
+            <div class="col-md-12">
+                <h2>Bạn cũng có thể thích !</h2>
+            </div>
+            <div class="row">
+                @foreach (var item in ViewBag.SelectedPostt)
+                {
+                    <div class="col-md-3">
+                        <a href="@Url.Action("Details", "SanPham", new { id = @item.sanpham.masp })">
+                            <div class="featured-item">
+                                <img src="@item.sanpham.hinh" alt="Item 8">
+                                <h4>@item.sanpham.tensp)</h4>
+                                <h6>@String.Format("{0:N0}", @item.sanpham.giaban)</h6>
+                            </div>
+                        </a>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

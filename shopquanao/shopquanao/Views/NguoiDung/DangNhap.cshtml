@@ -1,0 +1,52 @@
+﻿@model shopquanao.Models.KhachHang
+
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .form-control {
+        border-color: #0056b3 !important;
+    }
+</style>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="body">
+    <div class="height360">
+        <div class="main">
+            <form action="" method="POST" class="form" id="form-2">
+                <h3 class="heading">Đăng nhập</h3>
+
+                <h4 class="text-danger">@ViewBag.msg</h4>
+
+                <div class="form-group">
+                    <label for="Fullname" class="form-label">Tên tài khoản</label>
+                    @Html.EditorFor(model => model.tendangnhap, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.tendangnhap, "", new { @class = "text-danger" })
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    @Html.EditorFor(model => model.matkhau, new { htmlAttributes = new { @class = "form-control", type = "password" } })
+                    @Html.ValidationMessageFor(model => model.matkhau, "", new { @class = "text-danger" })
+                    <span class="form-message"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary" value="Login" name="login_submit">Đăng nhập</button>
+
+                <div class="dont-have-account">
+                    Bạn chưa có tài khoản? <a class="text-purple" href="@Url.Action("DangKy", "NguoiDung")">Đăng ký ngay</a>
+                </div>
+                <div class="dont-have-account">
+                    Quên mật khẩu? <a class="text-purple" href="@Url.Action("ForgotPassword", "NguoiDung")">tại đây</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+}

@@ -1,0 +1,69 @@
+﻿@model PagedList.IPagedList<shopquanao.Models.SanPham>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "QLSanPham";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 padding-8">
+    <div class="list">
+        <div class="menu_option-head">Danh sách sản phẩm</div>
+        <div class="add-product">
+            <a href="@Url.Action("Create")">Thêm sản phẩm</a>
+        </div>
+
+        <table class="table">
+            <thead>
+            <th>Danh Muc</th>
+            <th>tên sản phẩm</th>
+            <th>hình</th>
+            <th>giá</th>
+            <th>ngày cập nhập</th>
+            <th>số lượng tồn</th>
+            <th>Chức năng</th>
+            </thead>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.idDanhmuc)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tensp)
+                    </td>
+                    <td>
+                        <img src=" @Html.DisplayFor(modelItem => item.hinh)" height="100px" />
+                    </td>
+                    <td>
+                        @String.Format("{0:N0}", item.giaban)
+                    </td>
+                    <td>
+                        @item.ngaycapnhat
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.soluongton)
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Details", "Admin", new { id = item.masp })" class="btn btn-success"><i class="fa-solid fa-eye"></i></a>
+                        <a href="@Url.Action("Edit", "Admin", new { id = item.masp })" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                        <a href="@Url.Action("Delete", "Admin", new { id = item.masp })" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></a>
+                    </td>
+                </tr>
+            }
+
+
+        </table>
+
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="MenuTrang">
+            @Html.PagedListPager(Model, page => Url.Action("QLSanPham", new
+            {
+                page = page
+            }))
+        </div>
+    </div>
+
+</div>

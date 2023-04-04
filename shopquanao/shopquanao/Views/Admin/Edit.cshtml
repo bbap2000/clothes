@@ -1,0 +1,133 @@
+﻿@model shopquanao.Models.SanPham
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 padding-8">
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="menu_option-head2">Sửa sản phẩm</div>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.masp)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tensp, htmlAttributes: new { @class = "col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.tensp, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.tensp, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-2">
+                <strong>Hình @Html.EditorFor(model => model.hinh, new { htmlAttributes = new { @class = "form-control" } })</strong>
+            </div>
+
+            <div class="col-md-10">
+                @Html.ValidationMessageFor(model => model.hinh, "", new { @class = "text-danger" })
+                <input type="file" name="fileUpload" id="fileUpload" accept="image/*"
+                       style="display:none;" />
+                <input type="button" id="btnUpload" value="Chọn" class="btn btn-success" />
+                <img src="@Model.hinh" id="pictureUpload" height="200px" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.giaban, htmlAttributes: new { @class = "col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.giaban, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.giaban, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.idDanhmuc, htmlAttributes: new { @class = "col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("idDanhmuc", ViewBag.fulllist as SelectList, "Chọn danh mục", htmlAttributes: new { @name = "idDanhmuc", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.idDanhmuc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.soluongton, htmlAttributes: new { @class = "col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.soluongton, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.soluongton, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.giamgia, htmlAttributes: new { @class = "col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.giamgia, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.giamgia, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.mota, htmlAttributes: new { @class = "col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.mota, new { @class = "ckeditor" })
+                @Html.ValidationMessageFor(model => model.mota, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</div>
+
+@section upload
+{
+    <script>
+        $(function () {
+            $('#btnUpload').click(function () {
+                $('#fileUpload').trigger('click');
+            });
+        });
+        $('#fileUpload').change(function () {
+            if (window.FormData !== undefined) {
+                var fileUpload = $('#fileUpload').get(0);
+                var files = fileUpload.files;
+                var formData = new FormData();
+                formData.append('file', files[0]);
+
+                $.ajax(
+                    {
+                        type: 'POST',
+                        url: '/Admin/ProcessUpload',
+                        contentType: false,
+                        processData: false,
+                        data: formData,
+                        success: function (urlImage) {
+
+                            $('#pictureUpload').attr('src', urlImage);
+                            $('#hinh').val(urlImage);
+                        },
+                        error: function (err) {
+                            alert('Error ', err.statusText);
+                        }
+                    });
+            }
+        });
+    </script>
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,87 @@
+﻿@model PagedList.IPagedList<shopquanao.Models.SanPham>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "TatCaSanPham";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Tất cả sản phẩm -->
+<div class="body">
+    <div class="col-md-12">
+        <div class="section-heading">
+            <div class="line-dec"></div>
+            <h1>Tất cả sản phẩm</h1>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    <a href="@Url.Action("Details", "SanPham", new { id = item.masp })">
+                        <div class="featured-item">
+                            <img src="@item.hinh" alt="Item 8">
+                            <h4>@Html.DisplayFor(modelItem => item.tensp)</h4>
+                            <h6>@String.Format("{0:N0}", item.giaban)</h6>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+
+        <div class="d-flex justify-content-center mt-3">
+            <div class="MenuTrang">
+                @Html.PagedListPager(Model, page => Url.Action("TatCaSanPham", new
+                {
+                    page = page
+                }))
+            </div>
+        </div>
+        <style>
+            .MenuTrang li {
+                display: inline;
+            }
+        </style>
+        <style type="text/css">
+            #mau-nut a {
+                clear: both;
+                background-color: orange;
+                color: snow;
+            }
+
+                #mau-nut a:hover {
+                    background-color: darkcyan;
+                    color: snow;
+                }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                var maxLength = 100;
+                $(".show-read-more").each(function () {
+                    var myStr = $(this).text();
+                    if ($.trim(myStr).length > maxLength) {
+                        var newStr = myStr.substring(0, maxLength);
+                        var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+                        $(this).empty().html(newStr);
+
+                        $(this).append(' <a href="javascript:void(0);" class="read-more">đọc tiếp...</a>');
+
+                        $(this).append('<span class="more-text">' + removedStr +
+                            '</span>');
+                    }
+                });
+                $(".read-more").click(function () {
+                    $(this).siblings(".more-text").contents().unwrap(); $(this).remove();
+                });
+            });
+        </script>
+
+    </div>
+
+
+
+</div>
+<!-- End Tất cả sản phẩm -->

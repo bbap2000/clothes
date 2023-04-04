@@ -1,0 +1,59 @@
+﻿@model IEnumerable<shopquanao.Models.DanhMuc>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <table class="table">
+        <div class="menu_option-head">Danh Mục Sản Phẩm</div>
+        <div class="add-product">
+            <a href="@Url.Action("Create")">Thêm danh mục</a>
+        </div>
+
+        <thead>
+        <th>Tên Danh Muc</th>
+        <th>
+            Chức năng
+        </th>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tendanhmuc)
+                </td>
+                <td>
+                    <a href="@Url.Action("Details", "DanhMuc", new { id = item.idDanhmuc })" class="btn btn-success"><i class="fa-solid fa-eye"></i></a>
+                    <a href="@Url.Action("Edit", "DanhMuc", new { id = item.idDanhmuc })" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                    <a href="@Url.Action("Delete", "DanhMuc", new { id = item.idDanhmuc })" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></a>
+                </td>
+            </tr>
+        }
+
+    </table>
+    <div>
+        @Html.ActionLink("Back to List", "Index", "Admin")
+    </div>
+
+</div>
+
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>
+<style type="text/css">
+    #mau-nut a {
+        clear: both;
+        background-color: orange;
+        color: snow;
+    }
+
+        #mau-nut a:hover {
+            background-color: darkcyan;
+            color: snow;
+        }
+</style>
+

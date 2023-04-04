@@ -1,0 +1,46 @@
+﻿@model PagedList.IPagedList<shopquanao.Models.SanPham>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "TimKiem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="body">
+
+    <div class="col-md-12">
+        <div class="section-heading">
+            <div class="line-dec"></div>
+            <h1>Search Items</h1>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    <a href="@Url.Action("Details", "SanPham", new { id = item.masp })">
+                        <div class="featured-item">
+                            <img src="@item.hinh" alt="Item 8">
+                            <h4>@Html.DisplayFor(modelItem => item.tensp)</h4>
+                            <h6>@String.Format("{0:N0}", item.giaban)</h6>
+                        </div>
+                    </a>
+                </div>
+
+            }
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+
+        <div class="MenuTrang">
+
+            @Html.PagedListPager(Model, page => Url.Action("Index", new
+           {
+               page = page
+           }))
+        </div>
+    </div>
+
+</div>

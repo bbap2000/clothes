@@ -1,0 +1,61 @@
+﻿@model shopquanao.Models.KhachHang
+
+@{
+    ViewBag.Title = "SuaQuyen";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+@if (Session["Staff"] != null)
+{
+    <div class="p-3 text-danger">Bạn không có quyền truy cập trang web này!!!</div>
+}
+else
+{
+    <div class="col-12">
+    <h3 class="p-2">Quản lý phân quyền</h3>
+
+    @using (Html.BeginForm())
+    {
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.makh)
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Họ tên</label>
+            <div class="col-md-10">
+                <div class="form-control">@Model.hoten</div>
+                @Html.ValidationMessageFor(model => model.hoten, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Quyền</label>
+            <div class="col-md-10">
+                <select name="RoleID" id="cars" class="form-control">
+                    <option checked>@Model.RoleID</option>
+                    <option value="1">1 - Admin</option>
+                    <option value="2">2 - User</option>
+                    <option value="3">3 - Staff</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "ChiaQuyen")
+    </div>
+</div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

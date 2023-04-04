@@ -1,0 +1,331 @@
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\shopquanao.dll.config
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\shopquanao.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\shopquanao.pdb
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\PagedList.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\PagedList.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\obj\Debug\shopquanao.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\obj\Debug\shopquanao.pdb
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\PagedList.Mvc.dll
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\bin\PagedList.Mvc.xml
+C:\Users\Administrator\Desktop\shop closing\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\shopquanao.dll.config
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\shopquanao.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\shopquanao.pdb
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\PagedList.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\PagedList.Mvc.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\WebGrease.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\PagedList.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\PagedList.Mvc.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.CopyComplete
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\obj\Debug\shopquanao.dll
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\obj\Debug\shopquanao.pdb
+C:\Users\Admin\Downloads\ShopQuanAo\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\shopquanao.dll.config
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\shopquanao.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\shopquanao.pdb
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\PagedList.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\PagedList.Mvc.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\WebGrease.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\PagedList.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\PagedList.Mvc.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.CopyComplete
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\obj\Debug\shopquanao.dll
+C:\Users\Admin\Downloads\NguyenThanhTin-1911066403\shopquanao\shopquanao\obj\Debug\shopquanao.pdb
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\shopquanao.dll.config
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\shopquanao.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\shopquanao.pdb
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\csc.exe
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\csc.exe.config
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\csc.rsp
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\csi.exe
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\csi.exe.config
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\csi.rsp
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.AppContext.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Console.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Net.Http.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.ValueTuple.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\vbc.exe
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\vbc.exe.config
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\vbc.rsp
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\Antlr3.Runtime.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\Newtonsoft.Json.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\PagedList.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\PagedList.Mvc.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Helpers.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Mvc.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Optimization.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Razor.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.WebPages.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\WebGrease.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\PagedList.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\PagedList.Mvc.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Helpers.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Mvc.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Optimization.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.Razor.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.WebPages.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\System.Web.WebPages.Razor.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\Newtonsoft.Json.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\Antlr3.Runtime.pdb
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.AssemblyReference.cache
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.CoreCompileInputs.cache
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\obj\Debug\shopquanao.csproj.CopyComplete
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\obj\Debug\shopquanao.dll
+C:\Users\Webt3\shopC#\shopquanao\shopquanao\obj\Debug\shopquanao.pdb

@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Quần Áo</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="~/Content/css/style.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link href="~/Content/css/tooplate-main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <!----<a class="navbar-brand" href="#"><img src="~/Content/images/logo.png" alt=""></a>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <style>
+                #navbarResponsive {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: unset;
+                    position: unset;
+                    left: unset;
+                    top: unset;
+                    transform: unset;
+                }
+            </style>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav d-flex justify-content-between" style="width: 100%;">
+                    <div style="margin-right: auto;" class="d-flex">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">
+                            TRANG CHỦ
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("TatCaSanPham", "SanPham")">SẢN PHẨM</a>
+                    </li>
+
+                    @if (Session["TaiKhoan"] != null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "XemDonHang")">ĐƠN HÀNG</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <div class="nav-link" style="opacity:0.5;" disabled>ĐƠN HÀNG</div>
+                        </li>
+                    }
+
+
+                    <li class="nav-item">
+                        <div class="nav-link">
+                            @using (Html.BeginForm("TimKiem", "TimKiem", FormMethod.Get, new { @class = "navbar__search" }))
+                            {
+                                @Html.TextBox("search", null, new { @class = "search form-label", placeholder = "Nhập để tìm kiếm", required = "required" })
+                            }
+                        </div>
+
+                    </li>
+</div>
+
+                    <div class="d-flex">
+                    <li class="nav-item">
+                        @Html.Action("GioHangPartial", "GioHang", new { @class = "giohang" })
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["TaiKhoan"] != null)
+                        {
+                        <li class="nav-link custom-user">
+                            @Session["Username"].ToString()
+
+                        </li>
+                        <a href="@Url.Action("DangXuat", "NguoiDung")" class="nav-link custom-user">
+                            <span class="fas fa-sign-out-alt"></span>
+                        </a>
+                    }
+                    else
+                    {
+                        <div class="login">
+                            <a href="@Url.Action("DangNhap", "NguoiDung")" class="nav-link">
+                        <li class="nav-item">Đăng nhập</li></a>
+                </div>
+            }
+                        </li>
+
+                    </div>
+                      
+
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+
+
+                @RenderBody()
+                <hr />
+                <div class="subscribe-form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-heading">
+                                    <div class="line-dec"></div>
+                                    <h1>Nhập email của bạn để liên hệ chúng tôi !</h1>
+                                </div>
+                            </div>
+                            <div class="col-md-8 offset-md-2">
+                                <div class="main-content">
+
+                                    <div class="container">
+                                        <form id="subscribe" action="" method="get">
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <fieldset>
+                                                        <input name="email" type="text" class="form-control" id="email" onfocus="if(this.value == 'Your Email...') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Email...';}" value="Your Email..." required="">
+                                                    </fieldset>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <fieldset>
+                                                        <button type="submit" id="form-submit" class="button">LIÊN HỆ NGAY!</button>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright-text">
+                                    <p>
+                                        Copyright &copy; 2022 by  Nguyen Thanh Tin
+
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---<div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="assets/images/header-logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Help</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">How It Works ?</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="go-to-top"><i class="fas fa-chevron-up"></i></div>-->
+
+
+                @Scripts.Render("~/bundles/jquery")
+                @Scripts.Render("~/bundles/bootstrap")
+                <script src="~/Content/scripts/ckfinder/ckfinder.js"></script>
+                <script src="~/Content/scripts/ckeditor/ckeditor.js"></script>
+                @RenderSection("upload", required: false)
+                @RenderSection("scripts", required: false)
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+                <script>
+                    //Slider using Slick
+                    $(document).ready(function () {
+                        $('.post-wrapper').slick({
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            arrow: true,
+                            dots: true,
+                            autoplaySpeed: 5000,
+                            prevArrow: $('.prev'),
+                            nextArrow: $('.next'),
+                            appendDots: $(".dot"),
+                        });
+                    });
+                </script>
+
+                <!-- Additional Scripts -->
+                <script src="~/Content/scripts/custom.js"></script>
+
+                <script language="text/Javascript">
+                    cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+                    function clearField(t) {                   //declaring the array outside of the
+                        if (!cleared[t.id]) {                      // function makes it static and global
+                            cleared[t.id] = 1;  // you could use true and false, but that's more typing
+                            t.value = '';         // with more chance of typos
+                            t.style.color = '#fff';
+                        }
+                    }
+                </script>
+
+                <script src="~/Content/scripts/script.js"></script>
+            </body>
+</html>

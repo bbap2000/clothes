@@ -1,0 +1,59 @@
+﻿@model IEnumerable<shopquanao.Models.DonHang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="body">
+    <table class="table">
+        <tr>
+            <th>
+
+                @Html.DisplayNameFor(model => model.makh)
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.thanhtoan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.giaohang)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ngaydat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ngaygiao)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.makh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.thanhtoan)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.giaohang)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ngaydat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ngaygiao)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Chi tiết đơn hàng", "DetailsCTDH2", new { id = item.madon })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
